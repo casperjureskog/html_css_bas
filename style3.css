@@ -1,3 +1,8 @@
+
+/* font style and color comands*/
+
+
+
 body {
   /* Old browsers */
   background: #141E30;
@@ -13,14 +18,20 @@ h1 {
   /* font-family: Playfair Display, serif; */
   color: #FFF;
   font-size: 32px;
-  padding-top: 100px;
+  text-transform: uppercase;
+  /* (text-align: right;)  har ox left, center,right */
   text-align: left;
+  padding-top: 100px;
+
   width: 60%;
 }
 
 h2 {
   font-family: Roboto, sans-serif;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  word-spacing: 0.05em;
+  font-style: italic;
+  letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.5);
   font-weight: 100;
   font-size: 22px;
@@ -33,6 +44,7 @@ h2 {
 p {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
+  font-weight: 100;
   color: AliceBlue;
   line-height: 1.7em;
   text-align: left;
@@ -73,4 +85,12 @@ p {
   background-size: cover;
   background-position: center;
   height: 300px;
+}
+
+.writer-img {
+  -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  float: left;
+  width: 50px;
 }
